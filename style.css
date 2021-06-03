@@ -1,0 +1,98 @@
+/** general style **/
+.display-5 {
+  font-size: 2.5rem;
+}
+.display-6 {
+  font-size: 1.5rem;
+}
+.display-7 {
+  font-size: 1.1rem;
+}
+html {
+  font-size: 18px;
+}
+@media print
+{
+  body {
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+/** general style **/
+
+/**  SUMMARY  **/
+
+.summary-info {
+  /* height: 100%; */
+  background: #A2E1DB;
+  min-width: 320px;
+}
+.full-name {
+  text-shadow: 4px 4px #D4F0F0;
+}
+.position-name {
+  color: #666;
+}
+.avatar-bg {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background: url('avatar.png') no-repeat right top;
+  background-size: cover;
+  border-radius: 50%;
+}
+/* .contact-detail,
+.skills {
+  background: #A2E1DB;
+} */
+.summary {
+  background: #8FCACA !important;
+}
+
+.contact-detail-item {
+  line-height: 2.2rem;
+  font-size: 1.25rem;
+}
+.contact-detail-item .icon {
+  float: left;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #8FCACA;
+}
+.contact-detail-item .icon i {
+  padding-left: .48rem;
+}
+
+/**  DETAIL  **/
+
+/* .detail-info {
+  min-height: 100vh;
+  background: #D4F0F0;
+} */
+.detail-info .title {
+  line-height: 3rem;
+}
+.detail-info .title .icon {
+  float: left;
+  width: 3.1rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #8FCACA;
+}
+.detail-info .title .icon i.fa-graduation-cap {
+  padding-left: 8px;
+}
+.detail-info .title .icon i.fa-briefcase {
+  padding-left: 13px;
+}
+.heading {
+  color: #414142;
+}
+ul {
+  padding-left: 22px;
+}
+span.fa-star.checked {
+  color: orange;
+}
